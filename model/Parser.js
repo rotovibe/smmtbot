@@ -14,7 +14,7 @@ const mParser = {
             response = b1Msg.getB1Message(botWord);
         }
 
-        return callback(response);
+        return callback(null, response);
     }
 };
 
