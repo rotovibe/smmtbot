@@ -14,7 +14,7 @@ router.post('/', function(req, res, next) {
         } else {
             res.statusCode = 200;
             //res.json();
-            //postMessage(result);
+            postMessage(result);
         }
     });
 
